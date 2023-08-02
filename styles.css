@@ -1,0 +1,62 @@
+* {
+    background-color: #016064;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 8% 15%;
+    color: beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.calculator {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.screen {
+    display: inline-flex;
+    background-color: beige;
+    width: auto;
+    height: 100px;
+    margin-bottom: 8px;
+    flex-direction: row-reverse;
+
+}
+
+.calcNums {
+    background-color: beige;
+    color: #016064;
+}
+
+.container {
+    display: inline-flex;
+    border: 1px solid white;
+    flex-direction: column;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.button {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    margin: 8px;
+    border-radius: 12px;
+    color: black;
+    font-size: 36px;
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+
+h1 {
+    font-size: 60px;
+}
+
