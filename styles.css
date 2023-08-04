@@ -20,9 +20,19 @@ body {
     background-color: beige;
     width: auto;
     height: 100px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     flex-direction: row-reverse;
+}
 
+.secScreen {
+    display: inline-flex;
+    background-color: #016064;
+    border: 1px solid beige;
+    width: auto;
+    height: 100px;
+    /* margin-bottom: 8px; */
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .calcNums {
@@ -60,3 +70,7 @@ h1 {
     font-size: 60px;
 }
 
+#secDisplay {
+    background-color: #016064;;
+    color: beige; 
+}
